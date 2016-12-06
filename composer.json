@@ -1,0 +1,17 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "admin@pymestudio.pe.hu"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "6.2.2",
+    "nategood/httpful": "0.2.20",
+    "php-curl-class/php-curl-class": "7.1.0"
+  }
+}
