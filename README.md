@@ -1,2 +1,1 @@
-#PHP CURL SUNAT
-using <a>https://github.com/php-curl-class/php-curl-class</a>
+# PHP Request Sample
