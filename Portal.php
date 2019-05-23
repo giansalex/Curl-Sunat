@@ -18,7 +18,7 @@ class Portal
     }
 
     public function Run(){
-        $this->Login("20100451931AZABRGAB", "3Q13CzHfP");
+        $this->Login("<ruc><user>", "<clave>");
     }
 
     private function Login($user, $pass){
