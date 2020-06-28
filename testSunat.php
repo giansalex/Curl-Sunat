@@ -12,4 +12,4 @@ include "LoginPortal.php";
 use Sunat\Auth\LoginPortal;
 
 $cl = new LoginPortal();
-$cl->Login("20600055519ANTONITR","druntiony");
+$cl->Login("<user-sol>","<pass>");
