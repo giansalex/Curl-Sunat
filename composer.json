@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "guzzlehttp/guzzle": "6.5.6",
+    "guzzlehttp/guzzle": "6.5.7",
     "nategood/httpful": "0.2.20",
     "php-curl-class/php-curl-class": "7.1.0"
   }
