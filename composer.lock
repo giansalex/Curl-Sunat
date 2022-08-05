@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "094a3a584c82a25f7d76a48c5cb30338",
+    "content-hash": "4cdf1cb5f3920a5541bb103b3ce1bca7",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -314,113 +314,6 @@
                 }
             ],
             "time": "2022-06-20T21:43:03+00:00"
-        },
-        {
-            "name": "nategood/httpful",
-            "version": "0.2.20",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nategood/httpful.git",
-                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nategood/httpful/zipball/c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
-                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Httpful": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nate Good",
-                    "email": "me@nategood.com",
-                    "homepage": "http://nategood.com"
-                }
-            ],
-            "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
-            "homepage": "http://github.com/nategood/httpful",
-            "keywords": [
-                "api",
-                "curl",
-                "http",
-                "requests",
-                "rest",
-                "restful"
-            ],
-            "time": "2015-10-26T16:11:30+00:00"
-        },
-        {
-            "name": "php-curl-class/php-curl-class",
-            "version": "7.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-curl-class/php-curl-class.git",
-                "reference": "07dee3e18156ce9543fb86c4d327bbccc5f197c1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/07dee3e18156ce9543fb86c4d327bbccc5f197c1",
-                "reference": "07dee3e18156ce9543fb86c4d327bbccc5f197c1",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "*",
-                "squizlabs/php_codesniffer": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Curl\\": "src/Curl/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Unlicense"
-            ],
-            "authors": [
-                {
-                    "name": "Zach Borboa"
-                }
-            ],
-            "description": "PHP Curl Class is an object-oriented wrapper of the PHP cURL extension.",
-            "homepage": "https://github.com/php-curl-class/php-curl-class",
-            "keywords": [
-                "api",
-                "class",
-                "client",
-                "curl",
-                "framework",
-                "http",
-                "http client",
-                "json",
-                "php",
-                "requests",
-                "rest",
-                "restful",
-                "web service",
-                "xml"
-            ],
-            "time": "2016-11-13T11:11:22+00:00"
         },
         {
             "name": "psr/http-message",
@@ -775,5 +668,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.0.0"
 }
