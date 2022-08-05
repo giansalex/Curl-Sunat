@@ -1,14 +1,9 @@
 {
-  "name": "vendor_name/package_name",
+  "name": "giansalex/curl-sunat",
   "description": "description_text",
   "minimum-stability": "stable",
   "license": "proprietary",
-  "authors": [
-    {
-      "name": "author's name",
-      "email": "admin@pymestudio.pe.hu"
-    }
-  ],
+  "authors": [],
   "require": {
     "guzzlehttp/guzzle": "6.5.8",
     "nategood/httpful": "0.2.20",
