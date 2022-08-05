@@ -10,5 +10,10 @@ require_once 'Portal.php';
 
 use Sunat\Portal;
 $portal = new Portal();
-echo "Starting...<br/>";
-$portal->Run();
+
+$array = $portal->Login("ruc","user","password");
+$urlfinal= $array[0];
+
+//abrira el portal sunat sin necesidad de hacer login
+echo $urlfinal;
+//header("Location: " . $urlfinal);
